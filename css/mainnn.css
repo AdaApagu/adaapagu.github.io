@@ -1,0 +1,120 @@
+body{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.border{
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    border-radius: 2%;
+    color: black;
+    padding: 10px;
+    padding-left: 30px;
+
+
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+body {
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.border {
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(0, 119, 255);
+    height: 500px;
+    border-radius: 2%;
+    color: black;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+/* Logo size */
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain; /* Ensures the aspect ratio is maintained */
+}
+/* Footer styles */
+.footer {
+    background-color: #000; /* Deep black background */
+    border-top: 2px solid #444; /* Subtle border for separation */
+    color: #fff; /* White text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Elegant and clean font */
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5); /* Soft shadow effect */
+}
+
+.footer-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase; /* Makes headings stand out */
+    color: #256cb3; /* Slightly lighter color for headings */
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer a {
+    color: #000000; /* Soft white color for links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.footer a:hover {
+    color: #310ff1; /* Gold color on hover for a fancy touch */
+    text-decoration:underline;
+}
+
+/* Media query to adjust footer on smaller screens */
+@media (max-width: 768px) {
+    .footer-heading {
+        text-align: center;
+    }
+    .footer ul {
+        text-align: center;
+    }
+}
+
+.container{
+    padding-top: 30px;
+    margin-top: 20px;
+    border: none;
+    width: 1250px;
+    background-color:white;
+    color: blue;
+    font-size: x-large;
+}
+
+body{
+    background-color: blue;
+    font-family: "Orbitron", sans-serif;
+    color: rgb(0, 0, 0);
+}
+.position
+{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row-gap{
+    margin-top: 2%;
+}
+.color{
+    color: black;
+    font-size: large;
+}

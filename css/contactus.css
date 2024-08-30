@@ -1,0 +1,113 @@
+body{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.border{
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(160, 160, 160);
+    height: 500px;
+    border-radius: 2%;
+    color: black;
+    padding: 10px;
+    padding-left: 30px;
+
+
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+body {
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.border {
+    margin-top: 40px;
+    border: none;
+    background-color: rgb(114, 192, 255);
+    height: 600px;
+    border-radius: 3%;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    padding-left: 30px;  
+    margin-bottom: 30px;           
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+a:link:hover{
+    color: black;
+}
+/* h1,h3:hover{
+    color: aqua;
+} */
+
+/* Logo size */
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain; 
+}
+/* Footer styles */
+.footer {
+    background-color: #000; 
+    border-top: 2px solid #444; 
+    color: #fff; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.5); /* Soft shadow effect */
+}
+
+.footer-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase; /* Makes headings stand out */
+    color: #256cb3; /* Slightly lighter color for headings */
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer a {
+    color: #000000; /* Soft white color for links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.footer a:hover {
+    color: #310ff1; /* Gold color on hover for a fancy touch */
+    text-decoration:underline;
+}
+
+/* Media query to adjust footer on smaller screens */
+@media (max-width: 768px) {
+    .footer-heading {
+        text-align: center;
+    }
+    .footer ul {
+        text-align: center;
+    }
+}
+
+.container{
+    padding-top: 30px;
+    margin-top: 20px;
+    border: none;
+    width: 1250px;
+    background-color:white;
+    color: blue;
+    font-size: x-large;
+}
+.text{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}

@@ -1,0 +1,50 @@
+/* Custom CSS for About Us Page */
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand img {
+    height: 80px;
+    width: 80px;
+}
+
+.about-us {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+.about-us h1 {
+    color: #007bff;
+    font-size: 2.5rem;
+}
+
+.about-us h2 {
+    color: #343a40;
+    font-size: 1.75rem;
+    margin-top: 20px;
+}
+
+.about-us p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.footer p {
+    margin: 0;
+}
+
+h1{
+    color: blue;
+}

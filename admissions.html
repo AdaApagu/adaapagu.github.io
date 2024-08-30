@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/mainnn.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <title>Sign up Form</title>
+</head>
+
+<body>
+<!---navbar-->
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="pics/logoincubators.png" class="logo" alt="Logo">
+        <span class="ms-3 academy-name">Incubators Academy</span> <!-- Added text with spacing -->
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto"> <!-- Right-align the navigation links -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+        </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Admissions
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="admissions.html">Applications</a></li>
+              <li><a class="dropdown-item" href="#">Careers</a></li>
+              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--navbar ends-->
+    <div class="card w-75 position color">
+        <div class="card-body">
+          <h2 class="card-title">Registration Form</h2>
+          <div class="row g-3 align-items-center">
+            <div class="col-auto">
+              <label for="firstName" class="col-form-label">First Name</label>
+            </div>
+            <div class="col-auto">
+              <input type="text" id="firstName" class="form-control">
+            </div>
+            <div class="col-auto">
+                <label for="lastName" class="col-form-label">Last Name</label>
+              </div>
+              <div class="col-auto">
+                <input type="text" id="lastName" class="form-control">
+              </div>
+          </div>  <!-- row -body div -->  
+         
+          <div class="mb-3 row-gap">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <div class ="col-md-7">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <div class="col-md-7">
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">City</label>
+            <div class="col-md-7">
+            <input type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Country</label>
+            <div class="col-md-7">
+            <input type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+          </div>
+          <a href="#" class="btn btn-primary">Submit</a>
+        </div> <!-- card -body div -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Action
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+     </div>  <!-- entire card div -->
+</div>
+ <script src="/js/bootstrap.min.js"></script>   
+</body>
+
+</html>
